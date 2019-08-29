@@ -1,0 +1,82 @@
+body, input, textarea {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:18px;
+}
+
+.flex {
+	display:flex;
+}
+.flex-row {
+	flex-direction:row;
+}
+.flex-column {
+	flex-direction:column;
+}
+.section {
+	margin:0px 20px;
+}
+
+#letter-form div {
+	margin-bottom:10px;
+}
+input[type=text] {
+	width:300px;
+}
+#message {
+	width:300px;
+	height:150px;
+}
+#senders {
+	width:300px;
+	height:80px;
+}
+.error {
+	font-size:12px;
+	color:#ff0000;
+}
+
+.buttons {
+	margin-top:10px;
+}
+.button-primary {
+	background-color:#000000;
+	border:0px;
+	border-radius:5px;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-size:16px;
+	width:70px;
+	height:30px;
+	margin-right:25px;
+}
+
+.special_chars td {
+	padding:0px 5px;
+}
+.special_chars tr td:first-child {
+	text-align:center;
+}
+.special_chars tr td:last-child {
+	text-align:right;
+}
+
+.sender_list {
+	padding:0px 2px 1px;
+	margin-bottom:10px;
+	height:30px;
+}
+
+.scrollarea {
+	overflow-y:scroll;
+	height:400px;
+}
+.letter_list tr:hover {
+	background-color:#ccffcc;
+}
+.letter_list tr td {
+	padding:5px;
+}
+.letter_list tr td a {
+	text-decoration:none;
+	color:#000000;
+}
